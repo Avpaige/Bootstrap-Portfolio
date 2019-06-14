@@ -1,0 +1,94 @@
+.prod {
+    width: 200px;
+    height: 200px;
+    margin-right: 50px;
+    background-image: url("../images/production.jpg");
+    background-size: 150%;
+    background-repeat: no-repeat;
+}
+
+
+.Other {
+    margin-top: 50px;
+    float:left;
+    width: 200px;
+    height: 200px;
+    background-image: url("../images/work.jpg");
+    background-size: 175%;
+    background-repeat: no-repeat;
+    color: black;
+
+}
+
+.edu {
+    float:left;
+    width: 200px;
+    height: 200px;
+    background-image: url("../images/temple.jpg");
+    background-size: 150%;
+    background-repeat: no-repeat;
+    color: black;
+    margin-right: 50px;
+
+}
+
+.label {
+
+    width: 200px;
+    height: 55px;
+    background-color: #4aaaa5;
+    color: white;
+    position: relative;
+    bottom: -125px;
+    text-align: center;
+    padding-bottom: 25px;
+    font-size: 20px;
+    
+}
+
+
+.mrk {
+    float:left;
+    width: 200px;
+    height: 200px;
+    background-image: url("../images/survey.jpg");
+    background-size: 150%;
+    background-repeat: no-repeat;
+    color: black;
+    background-color: white;
+
+}
+
+h1{
+    color: #4aaaa5;
+    position: relative;
+    top: -10px;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+
+
+.vlt {
+
+    float:left;
+    width: 200px;
+    height: 200px;
+    background-image: url("../images/trevor.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    color: black;
+    
+}
+
+.header {
+    margin-top: 50px;
+    margin-bottom: 30px;
+
+}.break {
+    height: 2px;
+    width: 950px;
+    background-color: gray;
+    margin-bottom: 50px
+
+}
