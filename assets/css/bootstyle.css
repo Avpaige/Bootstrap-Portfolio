@@ -1,0 +1,18 @@
+.name  {
+    width: 200px;
+    height: 69px;
+    background-color: #4aaaa5;
+    color: white;
+    text-align: center;
+    font-size:22px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    position: relative;
+    right: -200px;
+    bottom: -60px;
+    font-weight:bold;
+    }
+
+    html {
+        background-image: url("../images/grid.png");
+      
+      }
