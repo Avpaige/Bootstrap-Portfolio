@@ -2,10 +2,7 @@ body {
     background-image:url("../images/grid.png");
 }
 
-.nav {
-    background-color: white;
-    padding-right: 200px;
-}
+
 
 h1 {
     color: #4aaaa5;
@@ -13,6 +10,9 @@ h1 {
     font-size: 30px;
 }
  
+.navbar {
+    padding-right: 100px;
+}
 
 .navbar-brand {
     width: 200px;
@@ -21,11 +21,8 @@ h1 {
     color: white;
     text-align: center;
     font-size:22px;
-    position: relative;
-    right: -195px;
-    bottom: -40px;
     font-weight:bold;
-    padding-top: 15px;
+    position:relative;
 }
 
 .linebreak {

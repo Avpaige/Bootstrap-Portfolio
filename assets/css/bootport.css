@@ -1,3 +1,30 @@
+body {
+    background-image:url("../images/grid.png");
+}
+
+
+
+h1 {
+    color: #4aaaa5;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.navbar {
+    padding-right: 100px;
+}
+
+.navbar-brand {
+    width: 200px;
+    height: 69px;
+    background-color: #4aaaa5;
+    color: white;
+    text-align: center;
+    font-size:22px;
+    font-weight:bold;
+    position:relative;
+}
+
 .prod {
     width: 200px;
     height: 200px;
@@ -10,7 +37,6 @@
 
 .Other {
     margin-top: 50px;
-    float:left;
     width: 200px;
     height: 200px;
     background-image: url("../images/work.jpg");
@@ -21,7 +47,6 @@
 }
 
 .edu {
-    float:left;
     width: 200px;
     height: 200px;
     background-image: url("../images/temple.jpg");
@@ -35,20 +60,18 @@
 .label {
 
     width: 200px;
-    height: 55px;
+    height: 60px;
     background-color: #4aaaa5;
+    font-weight:bold;
     color: white;
     position: relative;
-    bottom: -125px;
-    text-align: center;
-    padding-bottom: 25px;
+    bottom: -110px;
     font-size: 20px;
     
 }
 
 
 .mrk {
-    float:left;
     width: 200px;
     height: 200px;
     background-image: url("../images/survey.jpg");
@@ -70,9 +93,7 @@ h1{
 
 
 .vlt {
-
-    float:left;
-    width: 200px;
+     width: 200px;
     height: 200px;
     background-image: url("../images/trevor.jpg");
     background-size: 100%;
@@ -83,12 +104,26 @@ h1{
 
 .header {
     margin-top: 50px;
-    margin-bottom: 30px;
-
-}.break {
-    height: 2px;
-    width: 950px;
-    background-color: gray;
-    margin-bottom: 50px
-
+    margin-bottom: 10px;
 }
+
+.linebreak {
+        height: 2px;
+        background-color: gray;
+       
+}
+
+
+.footer {
+    color: white; 
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #666666;
+    height: 60px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    padding: 10px 10px 30px 20px;
+    border-top: 8px solid #4aaaa5
+  }
+  
